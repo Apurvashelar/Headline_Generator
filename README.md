@@ -4,6 +4,9 @@
 In this model, our predictor will be quite simple, but it will provide some simple exposure to language processing, sequence data, and one of the classic architecture elements used to train sequences, recurrent neural networks or RNNs.  
 Elements in the data have a relationship with what comes before and what comes after, and this fact requires a different approach. We're gonna generate headlines as the application of sequence data.  
 
+### Dataset  
+Dataset is provided as "articles" in the zipped format.  
+
 ### Steps Involved  
 #### Reading the data  
 Our dataset consists of headlines from the New York Times newspaper over the course of several months. We'll start by reading in all the headlines from the articles.  
